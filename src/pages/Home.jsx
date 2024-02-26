@@ -75,7 +75,7 @@ const HomePage = () => {
       <div className="intro" id="intro">
         <div className="left">
           <div className="imgContainer">
-            <img src="/bendy-man-working-on-a-computer.gif" alt="" />
+            <img src="./bendy-man-working-on-a-computer.gif" alt="" />
           </div>
         </div>
         <div className="right">

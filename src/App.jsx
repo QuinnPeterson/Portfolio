@@ -21,7 +21,7 @@ function App() {
           <CssBaseline />
           <Navbar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/portfolio" element={<HomePage />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </ThemeProvider>
