@@ -24,7 +24,7 @@ const Navbar = () => {
   const alt = theme.palette.background.alt;
 
   const scrollToPortfolio = () => {
-    navigate("/");
+    navigate("https://quinnpeterson.github.io/");
     setTimeout(() => {
       const portfolioElement = document.getElementById("portfolio");
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           fontWeight="bold"
           fontSize="clamp(1rem, 2rem, 2.25rem)"
           color="primary"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("https://quinnpeterson.github.io/")}
           sx={{
             "&:hover": {
               color: primaryLight,
