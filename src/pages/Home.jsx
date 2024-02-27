@@ -213,7 +213,7 @@ const HomePage = () => {
       {/* CONTACT SECTION */}
       <div className="contact" id="contact">
         <div className="left">
-          <img src="/shake.svg" alt="" />
+          <img src="./shake.svg" alt="" />
         </div>
         <div className="right">
           <h2>Contact</h2>
