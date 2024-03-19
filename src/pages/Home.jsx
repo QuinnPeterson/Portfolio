@@ -185,13 +185,13 @@ const HomePage = () => {
                   className="test"
                 >
                   <Grid item>
-                    <Button
+                    {/* <Button
                       variant="contained"
                       color="primary"
                       href={selectedProject.liveDemoLink}
                     >
                       Live Demo
-                    </Button>
+                    </Button> */}
                   </Grid>
                   <Grid item>
                     <Button
