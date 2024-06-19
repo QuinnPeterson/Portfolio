@@ -6,7 +6,6 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme";
 
-import Resume from "./pages/resume";
 import HomePage from "./pages/Home";
 import Navbar from "./components/navBar";
 
@@ -22,7 +21,6 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/portfolio" element={<HomePage />} />
-            <Route path="/resume" element={<Resume />} />
           </Routes>
         </ThemeProvider>
       </BrowserRouter>

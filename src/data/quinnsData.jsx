@@ -3,8 +3,7 @@ export const QuinnsData = [
     titles: [
       "Software Engineer",
       "App Developer",
-      "Software Developer",
-      "Problem Solver",
+      "Software Developer"
     ],
 
     projects: [

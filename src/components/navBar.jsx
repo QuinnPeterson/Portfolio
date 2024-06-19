@@ -61,7 +61,11 @@ const Navbar = () => {
       {isNonMobileScreens ? (
         <FlexBetween gap="2rem">
           <IconButton onClick={scrollToPortfolio}>Portfolio</IconButton>
-          <IconButton onClick={() => navigate("/resume")}>Resume</IconButton>
+
+          {/* https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view */}
+          <IconButton onClick={() => {
+              window.open("https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view", "_blank");
+            }}>Resume</IconButton>
 
           <IconButton
             onClick={() => {
@@ -119,7 +123,9 @@ const Navbar = () => {
             gap="3rem"
           >
             <IconButton onClick={scrollToPortfolio}>Portfolio</IconButton>
-            <IconButton onClick={() => navigate("/resume")}>Resume</IconButton>
+            <IconButton onClick={() => {
+              window.open("https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view", "_blank");
+            }}>Resume</IconButton>
 
             <IconButton
               onClick={() => {
