@@ -64,7 +64,7 @@ const Navbar = () => {
 
           {/* https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view */}
           <IconButton onClick={() => {
-              window.open("https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view", "_blank");
+              window.open("https://docs.google.com/document/d/1_Q9wbUfKEOUtKrsrXLKS3OPrGnDHHKxDm1rOKfmKx1o/edit?usp=drive_link", "_blank");
             }}>Resume</IconButton>
 
           <IconButton
@@ -124,7 +124,7 @@ const Navbar = () => {
           >
             <IconButton onClick={scrollToPortfolio}>Portfolio</IconButton>
             <IconButton onClick={() => {
-              window.open("https://drive.google.com/file/d/1aPniDaSxSjFelF-Xsw2TLSmfLGtD6CuN/view", "_blank");
+              window.open("https://docs.google.com/document/d/1_Q9wbUfKEOUtKrsrXLKS3OPrGnDHHKxDm1rOKfmKx1o/edit?usp=drive_link", "_blank");
             }}>Resume</IconButton>
 
             <IconButton
